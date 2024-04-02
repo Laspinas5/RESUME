@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: darkcyan;
+    max-width: 1400px;
+
+
+}
+
+ h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+p, li{
+    font-size: 20px;
+}
+.container1{
+    max-width: 1200px ;
+
+}
+.main{
+    
+    margin-left:  50px;
+    margin-right:  50px;
+}
+
+
+.education, .skills, .projects, .links, .personal1, h1 {
+    border: 10px solid gray;
+    background: cyan;
+}
+
+
+.projects h2,.education h2, .skills h2, .links h2, .personal1 h2, h1{
+    color: darkolivegreen;
+    text-align: center;
+}
+.links {
+    text-align: center;
+    max-width: 800px;
+    margin-left:  250px;
+    margin-right:  250px;
+
+}
+.personal2{
+    color: white;
+}
+.personal2{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+
+
+
+}
+.profile-picture {
+  display: flex;
+  justify-content: center; 
+}
+.profile-picture img {
+  width: 150px; 
+  height: 130px;
+  overflow: hidden;
+  border-radius: 50%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.profile-picture img:hover {
+  transform: scale(1.1); 
+}
+
+
